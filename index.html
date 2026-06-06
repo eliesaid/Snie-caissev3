@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html5-qrcode/2.3.8/html5-qrcode.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/html5-qrcode/2.3.8/html5-qrcode.min.js"></script>
 <style>
   :root{
     --cream:#F7F2E7; --cream-2:#F0E9D8; --paper:#FFFFFF;
@@ -264,7 +264,7 @@
   <div class="login-card">
     <div class="login-brand">
       <div class="mark">🛒</div>
-      <div class="t">Ma Caisse<small>Épicerie</small></div>
+      <div class="t">Ma Caisse<small>Épicerie · v6</small></div>
     </div>
     <h1>Connexion</h1>
     <p class="sub">Identifiez-vous pour ouvrir votre caisse.</p>
@@ -278,7 +278,7 @@
 <!-- ===================== APP ===================== -->
 <div id="app" class="hide">
   <header class="topbar">
-    <div class="brand"><div class="mark">🛒</div><span>Ma Caisse <span class="shopname" id="shopName"></span></span></div>
+    <div class="brand"><div class="mark">🛒</div><span>Ma Caisse <span class="shopname" id="shopName"></span></span><span style="font-size:.62rem;font-weight:800;color:var(--ink-soft);background:var(--cream-2);padding:2px 7px;border-radius:20px;letter-spacing:.04em">v6</span></div>
     <nav class="tabs" id="tabs">
       <button data-tab="caisse" class="active">Caisse</button>
       <button data-tab="stock" data-admin>Stock &amp; Inventaire <span class="pill hide" id="lowBadge">0</span></button>
